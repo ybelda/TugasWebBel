@@ -1,0 +1,35 @@
+<html>
+	<head>
+		<title>Form Penerima</title>
+	</head>
+	<body>
+		<h3>Form Pendaftaran Admin</h3>
+		<form action="form2.php" method="GET">
+			Nama : <input type="text" name="nama" /></br>
+			Password : <input type="password" name="password" /></br>
+			Jenis Kelamin :
+				<input type="radio" name="jenis_kelamin" value="laki-laki" /> Laki-Laki
+				<input type="radio" name="jenis_kelamin" value="perempuan" checked /> Perempuan
+			</br>
+			Keahlian :
+				<input type="checkbox" name="keahlian" value="menari" checked /> Menari
+				<input type="checkbox" name="keahlian" value="memasak" checked /> Memasak
+				<input type="checkbox" name="keahlian" value="berenang" /> Berenang
+			</br>
+			Tempat Lahir
+				<select name="tempat_lahir">
+					<option value="Jakarta"> Jakarta</option>
+					<option value="Bandung"> Bandung</option>
+					<option value="Bali" selected> Bali</option>
+				</select>
+			</br>
+			Deskripsi Diri :
+				<textarea name="deskripsi" rows="5" cols="20">
+				</textarea>
+			</br>
+				<input type="submit" value="Enter">
+				<input type="reset" value="Reset">
+		</form>
+		<h3><a href="Biodata.html"> Back to Biodata</a></h3>
+	</body>
+</html>

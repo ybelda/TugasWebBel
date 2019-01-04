@@ -1,0 +1,161 @@
+<html>
+	<head>
+		<title>UNAKI</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="responsive.css">
+	</head>
+	<body>
+		<div id="header">
+			<img src="image/logounaki.png">
+			<form class="example" action="/action_page.php" style="margin:auto;max-width:300px">
+				<input type="text" placeholder="Search.." name="search2">
+				<button type="submit"><i class="fa fa-search"></i></button>
+			</form>
+		</div>
+		<div class="nav">
+			<ul>
+				<li><a href="home.html">HOME</a></li>
+				<li><a href="">TENTANG UNAKI</a>
+					<ul>
+						<li><a href="profilunaki.html">Profil UNAKI</a></li>
+						<li><a href="visidanmisi.html">Visi dan Misi</a></li>
+					</ul>
+				</li>
+				<li><a href="">FAKULTAS</a>
+					<ul>
+						<li><a href="">Fakultas Teknik dan Informatika</a>
+							<ul>
+								<li><a href="teknikinformatikaS1.html">Teknik Informatika S1</a></li>
+								<li><a href="sisteminformasiS1.html">Sistem Informasi S1</a></li>
+							</ul>
+						</li>
+						<li><a href="">Fakultas Psikologi</a>
+							<ul>
+								<li><a href="psikologiS1.html">Psikologi S1</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li><a href="">AKADEMIK</a>
+					<ul>
+						<li><a href="kalenderakademik.html">Kalender Akademik</a></li>
+						<li><a href="http://kemahasiswaan.unaki.ac.id/">Kemahasiswaan</a></li>
+					</ul>
+				</li>
+				<li><a href="">ADMISI</a>
+					<ul>
+						<li><a href="http://www.unaki.ac.id/admisi/info-biaya">Info Biaya</a></li>
+						<li><a href="http://www.unaki.ac.id/admisi/syarat-registrasi">Syarat Registrasi</a></li>
+					</ul>
+				</li>
+				<li><a href="contactus.html">CONTACT US</a></li>
+				<li><a href="">LAYANAN</a>
+					<ul>
+						<li><a href="emailunaki.html">Email UNAKI</a></li>
+						<li><a href="http://perpustakaan.unaki.ac.id/">Perpustakaan</a></li>
+					</ul>
+				</li>
+				<li><a href="http://www.unaki.ac.id/ejournal/index.php/index/index">EJOURNAL</a></li>
+				<li><a href="https://drive.google.com/drive/folders/1F-4QF453zmIDeWp-KBsYZ6Rwjl9FaiMP">WTC 2018</a></li>
+			</ul>
+		</div>
+		<div class="clear">
+		</div>
+		<div class="slideshow-container">
+			<div class="mySlides fade">
+				<div class="numbertext">1 / 6</div>
+				<img src="image/image1.jpg" style="width:100%">
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">2 / 6</div>
+				<img src="image/image2.jpg" style="width:100%">
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">3 / 6</div>
+				<img src="image/image3.jpg" style="width:100%">
+			</div>
+			
+			<div class="mySlides fade">
+				<div class="numbertext">4 / 6</div>
+				<img src="image/image4.jpg" style="width:100%">
+			</div>
+			
+			<div class="mySlides fade">
+				<div class="numbertext">5 / 6</div>
+				<img src="image/image5.jpg" style="width:100%">
+			</div>
+			
+			<div class="mySlides fade">
+				<div class="numbertext">6 / 6</div>
+				<img src="image/image6.jpg" style="width:100%">
+			</div>
+		</div>
+			<div style="text-align:center">
+				<span class="dot"></span> 
+				<span class="dot"></span> 
+				<span class="dot"></span> 
+			</div>
+		<div id="isi">
+			<div class="iklan">
+				<div class="gambariklan">
+					<img src="image/livewisuda.jpg" class="gambariklan">
+					<img src="image/bannerbeasiswa.jpg" class="gambariklan">					
+				</div>
+			</div>
+		</div>
+		<div class="clear">
+		</div>
+		<div id="isi">
+			<div class="berita">
+				<img src="image/img1.png">
+				<p><b>Serunya First Gathering English Club UNAKI</b></br></p>
+			</div>
+			<div class="berita">
+				<img src="image/img2.png">
+				<p><b>Universitas AKI Bagi-Bagi Kacamata Gratis</b></br></p>			
+			</div>
+		</div>
+		<div id="isi">
+			<div class="berita">
+				<img src="image/img3.jpg">
+				<p><b>Karya Mahasiswa UNAKI di Bekraf Game Prime</b></br></p>		
+			</div>
+		</div>
+		<div id="isi">
+			<div class="berita">
+				<img src="image/img4.jpg">
+				<p><b>Kunjungan Studi Fakultas Psikologi</b></br></p>			
+			</div>
+		</div>
+		<div class ="clear">
+		</div>
+		<div class="footer">
+			<div class="content">
+				<p>Copyright © 2018 Universitas AKI. All Rights Reserved.</p>
+			</div>
+		</div>
+		<script>
+		var slideIndex = 0;
+		showSlides();
+
+		function showSlides() {
+			var i;
+			var slides = document.getElementsByClassName("mySlides");
+			var dots = document.getElementsByClassName("dot");
+			for (i = 0; i < slides.length; i++) {
+			slides[i].style.display = "none";  
+		}
+		slideIndex++;
+		if (slideIndex > slides.length) {slideIndex = 1}    
+		for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+		}
+		slides[slideIndex-1].style.display = "block";  
+		dots[slideIndex-1].className += " active";
+		setTimeout(showSlides, 3000); // Change image every 2 seconds
+		}
+	</script>
+	</body>
+</html>	

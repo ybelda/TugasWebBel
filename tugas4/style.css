@@ -1,0 +1,128 @@
+/* pengaturan body*/
+body {
+	background-color 	: grey;
+	text-align			: center;
+	font-family			: Verdana, Tahoma, Helvetica;
+	font-size			: 12px;
+}
+
+div{
+	background-color: lightblue;
+	border: 3px solid navy;
+	padding: 5px;
+	margin: 5px;
+}
+
+
+
+/* pengaturan layout utama */
+#layout {
+	background			: #fff;
+	width 				: 1080px;
+	margin				: auto;
+	text-align 			: left;
+	padding 			: 3px;
+}
+#header{
+	width 				: 97.6%;
+	height 				: 150px;
+	background-color	: #FF007F;
+	position 			: relative;
+	font-size			: 40px;
+	font-weight `		: bold;
+	padding-top			: 0px;
+}
+#header h2{
+	color				: white;
+	text-align			: center;
+	font-size			: 55px
+}
+.header {
+	width				: 97.6%;
+	height				: 100px;
+}
+
+/*pengaturan menu*/
+#menu{
+	width				: 97.6%;
+	height				: 40px;
+	background-color	: #FFC0CB;
+	position			: relative;
+}
+/*pengaturan menu*/
+#menu ul {
+	margin 				: 0;
+	padding 			: 0;
+	list-style 			: none;
+}
+
+#menu ul li {
+	float 				: left;
+	
+}
+
+#menu ul li a {
+	float 				: left;
+	color 				: black;
+	padding 			: 12px 20px;
+	text-decoration 	: none;
+	background 			: #FFC0CB;
+	border-left 		: 1px solid #3C4042;
+	border-right 		: 1px solid #3C4042;
+	text-shadow 		: 0 -1px 1px rgba(0, 0, 0, 0.6);
+}
+#menu ul li a:hover {
+	color 				: white;
+	background 			: #3C4042;
+}
+
+/*pengaturan isi*/
+#isi{
+	padding 			: 0px;
+	width				: 98.5%;
+	height				: auto;
+	background-color 	: #CCCCFF;
+	position 			: relative;
+	margin-top			: 5px;
+}
+.judul{
+	width				: 97.5%;					
+	height				: auto;
+	text-align			: center;
+	font-size			: 30px;
+}
+.isicontent{
+	font-size			: 20px;
+	text-align			: center;
+}
+form {
+	padding				: 5px;
+	padding-bottom		: 10px;
+}
+img{
+	width				: 200px;
+	height				: 250px;
+	border				: 3px solid navy;
+	padding				: 5px;
+	margin				: 10px;
+}
+video{
+	width				: 720px;
+	height				: 480px;
+}
+
+
+table{
+	padding 			: 0px;
+	width				: 99.5%;
+	border				: 3px solid navy;
+}
+table tr {
+	border				: 2px solid navy;	
+}
+table th {
+	border				: 2px solid navy;
+}
+table td {
+	border				: 2px solid navy;
+}

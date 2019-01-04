@@ -1,0 +1,301 @@
+/* pengaturan body*/
+body {
+	background-color 	: black;
+	text-align			: center;
+	font-family			: Verdana, Tahoma, Helvetica;
+	font-size			: 13px;
+	color               : maroon;
+}
+
+footer {
+	height				: 50px;
+	line-height			: 50px;
+	width				: 100%;
+	background-color	: #000;
+	color				: #FFF;
+	text-align			: center;
+	padding				: 0;
+}
+
+/* pengaturan layout utama */
+#layout {
+	background			: #94FCFF ;
+	width 				: 1080px;
+	overflow			: hidden;
+	margin				: auto;
+	text-align			: center;
+	padding 			: 5px;
+	float				: none;
+}
+#header{
+	width 				: 95.5%;
+	height 				: 150px;
+	background-color	: #00F7FF;
+	position 			: relative;
+	font-weight 		: bold;
+}
+#header h1{
+	color				: #FFFFFF;
+	text-align			: center;
+	font-size			: 50px;
+}
+.header {
+	width				: 80%;
+	height				: 100px;
+}
+.border{
+	float				: left;
+	width				: 1000px;
+	margin				: 10px;
+	padding				: 10px;
+	border				: 5px solid white;
+}
+
+
+
+/*pengaturan menu*/
+#menu{
+	width				: 95.5%;
+	height				: 35px;
+	background-color	: #0042FF;
+	position			: relative;
+}
+/*pengaturan menu*/
+#menu ul {
+	margin 				: 0;
+	padding 			: 0;
+	list-style 			: none;
+}
+
+#menu ul li {
+	float 				: left;
+}
+
+#menu ul li a {
+	float 				: left;
+	color 				: #FFFFFF;
+	padding 			: 10px 15px;
+	text-decoration 	: none;
+	background 			: #0042FF;
+	border-left 		: 1px solid #3C4042;
+	border-right 		: 1px solid #3C4042;
+	text-shadow 		: 0 -1px 1px rgba(0, 0, 0, 0.6);
+}
+#menu ul li a:hover {
+	color 				: white;
+	background 			: #3C4042;
+}
+
+/*pengaturan judul*/
+#judul{
+	width				: 100%;
+	height				: auto;
+	font-weight			: bold;
+	text-align			: center;
+	background-color	: #00F7FF;
+	}
+#judul h2{
+	color				: #FFFFFF;
+	border				: 5px solid white;
+	font-size			: 30px;
+}
+
+/*pengaturan isi content*/
+#content {
+	overflow			: hidden;
+	width				: 48.1%;
+	font-size 			: 20px;
+	float				: left;
+	font-family			: Bookman Old Style, serif;
+	color				: #6E6387 ;
+	text-align			: center;
+}
+#content a{
+	color				: #FFFFFF;
+}
+
+#daftarcontent {
+	overflow			: hidden;
+	width				: 90.5%;
+	float				: left;
+	text-align			: left;
+}
+#daftarcontent a img {
+	width				: 170px;
+	height				: 150px;
+	float				: left;
+	padding				: 5px;
+}
+#daftarcontent a {
+	color				: #6E6387 ;
+	text-decoration		: none;
+	font-weight 		: bold;
+}
+#daftarcontent a p {
+	color				: #000000;
+	font-size			: 15px;
+	color				: #6E6387 ;
+}
+
+
+#list{
+	overflow			: hidden;
+	width				: 19%;
+	height				: auto;
+	font-size 			: 20px;
+	float				: left;
+	font-family			: Bookman Old Style, serif;
+	background-color	: #0042FF;
+	text-align			: center;
+}
+#list ul {
+	margin 				: 1px;
+	padding 			: 10px;
+	height				: auto;
+	text-align			: left;
+	font-size			: 15px;
+}
+#list ul li {
+	float 				: left;
+	height				: auto;
+	padding				: 5px;
+	
+}
+
+#list ul li a {
+	float 				: left;
+	color 				: #FFFFFF;
+	height				: auto;
+	padding 			: 0;
+	text-decoration		: none;
+	background 			: #0042FF;
+}
+
+#list ul li a:hover {
+	color 				: white;
+	background 			: #3C4042;
+}
+
+#iklan{
+	width				: 19%;
+	font-size 			: 15px;
+	float				: left;
+	font-family			: Bookman Old Style, serif;
+	color				: #6E6387 ;
+	text-align			: center;
+}
+#iklan img{
+	width				: 120px;
+	height				: 180px;
+}
+
+/*pengaturan media*/
+.imgbio{
+	width				: 200px;
+	height				: 280px;
+	padding				: 5px;
+	margin				: 20px;
+	border				: 5px solid white;
+}
+.imgdes{
+	width				: 400px;
+	height				: 320px;
+	padding				: 5px;
+	margin				: 20px;
+	border				: 5px solid white;
+}
+.vid{
+	width				: 480px;
+	height				: 360px;
+	padding				: 5px;
+	margin				: 20px;
+	border				: 5px solid white;
+}
+
+
+/*pengaturan table*/
+#table{
+	float				: left;
+	width				: auto;
+	text-align			: center;
+	padding				: 10px;
+	margin				: 8px;
+	background-color	: #FFFFFF;
+	border				: 5px solid black;
+}
+
+/*pengaturan form*/
+form {
+	float				: left;
+	text-align			: left;
+	padding				: 10px;
+}
+.tableform table{
+	width				: 100%;
+	text-align			: left;
+	padding				: 10px;
+	color				: black;
+	font-size			: 20px;
+}
+
+/*pengaturan krs*/
+#contentkrs {
+	width				: 95.5%;
+	font-size 			: 20px;
+	float				: left;
+	font-family			: Bookman Old Style, serif;
+	color				: #6E6387 ;
+	text-align			: center;
+}
+#contentkrs a{
+	color				: #FFFFFF;
+}
+
+.tablekrstop table{
+	width				: 100%;
+	text-align			: center;
+	padding				: 10px;
+	color				: black;
+}	
+
+.tablekrsmid table{
+	width				: 100%;
+	text-align			: center;
+	padding				: 10px;
+	color				: black;
+}
+.tablekrsmid th{
+	border				: 2px solid black;
+}
+.tablekrsmid tr{
+	border				: 2px solid black;
+}
+.tablekrsmid td{
+	border				: 2px solid black;
+}
+
+/*pengaturan kalkulator*/
+#hasiltambah{
+	color				: #000000;
+	font-size			: 15px;
+	color				: #6E6387 ;
+}
+
+#hasilkurang{
+	color				: #000000;
+	font-size			: 15px;
+	color				: #6E6387 ;
+}
+
+#hasilkali{
+	color				: #000000;
+	font-size			: 15px;
+	color				: #6E6387 ;
+}
+
+#hasilbagi{
+	color				: #000000;
+	font-size			: 15px;
+	color				: #6E6387 ;
+}
+
